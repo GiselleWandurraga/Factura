@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+
+
+.padre{
+    display: flex;
+    height: 100vh;
+    width: 60%;
+}
+
+.barra{
+    background: linear-gradient(to bottom, green, rgb(0, 149, 0), rgb(1, 141, 66));
+    width: 5%;
+}
+
+.contenedor{
+    background-color: white;
+    width: 93%;
+}
+
+.logo{
+    height: auto;
+    width: 17%;
+    margin-left: 10%;
+
+}
+.bloque1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+color: rgb(15, 148, 126);
+font-size: 50px;
+text-transform: uppercase;
+font-weight: bold;
+margin-right: 10%;
+
+}
+.informacion_b1{
+    display: flex;
+    margin-top: 5%;
+}
+
+.nombres{
+    color:rgb(15, 148, 126);
+}
+
+.bloque2{
+    display: flex;
+    flex-direction: row;
+}
+
+.info_personal{
+    margin: 5%;
+}
+
+.pago{
+    margin: 5%;
+    display: flex;
+    justify-content: end;
+
+}
