@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+section{
+    height: 100vh;
+    width: 60%;
+}
+
+.padre{
+    display: flex;
+}
+
+.barra{
+    background: linear-gradient(to bottom, rgb(0, 208, 118), rgb(0, 173, 121), rgb(1, 141, 66));
+    width: 7%;
+}
+
+.contenedor{
+    background-color: white;
+    width: 93%;
+}
+
+.bloque1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+    margin-left: 12%;
+}
+
+.textos_b1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 56px;
+    color: #00B8A9;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    letter-spacing: 0.2em;
+    transform: scaleY(1.2);
+}
+
+.informacion_b1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nombres {
+    display: flex;
+    flex-direction: column;
+    color: #00B8A9;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.texto_fecha {
+    display: flex;
+    justify-content: end;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.bloque2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 5%;
+    letter-spacing: 0.1em;
+}
+
+.info_personal {
+    margin-left: 15px;
+}
+
+.nombre {
+    color: #00B8A9;
+    font-size: 30px;
+    transform: scaleY(1.1);
+    margin-bottom: 5px;
+}
+
+.texto_info p {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.pago {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: end;
+}
+
+.pago p {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.metodo_pago {
+    display: flex;
+    justify-content: end;
+}
+
+.texto_pago {
+    color: #00B8A9;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    margin-right: 5px;
+}
+
+.cont_cuenta {
+    display: flex;
+}
+
+.texto_cuenta {
+    text-transform: uppercase;
+}
+
+.cont_correo {
+    display: flex;
+}
+
+.texto_correo {
+    text-transform: uppercase;
+}
+
+.cont_tabla {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tabla {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 90%;
+}
+
+.tabla td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tabla th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tabla .l_blanca {
+    border-color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tabla .d_blanca {
+    border-color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tabla .e_1 {
+    background-color: #00B8A9;
+    border-color: #00B8A9;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tabla .d_gris {
+    background-color: #dcdcdc;
+    border-color: #dcdcdc;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tabla .l_gris {
+    background-color: #dcdcdc;
+    border-color: #dcdcdc;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.cards_tabla{
+    display: none;
+}
+
+.card_cantidad{
+    display: none;
+}
+
+.sub_tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 5%;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.subtotal{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8%;
+    margin-top: 12px;
+}
+
+.texto_subtotal{
+    margin-left: 18%;
+}
+
+.imp{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9%;
+}
+
+.texto_imp{
+    margin-left: 8%;
+}
+
+.total{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-right: 8%;
+}
+
+.texto_total{
+    margin-left: 25%;
+}
+
+.bloque3{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 7%;
+    height: 100px;
+}
+
+.contenedor_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.contenedor_contacto p{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.contenedor_gracias{
+    color: #00B8A9;
+    display: flex;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transform: scaleY(1.2);
+    padding-top: 8px;
+}
+
+.bloque4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 90%;
+    border: 2px solid #00B8A9;
+}
+
+.texto_footer{
+    margin: 15px 5%;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    display: flex;
+}
+
+@media(max-width: 1250px){
+    .cont_tabla, .sub_tabla{
+        display: none;
+    }
+
+    .cards_tabla{
+        display: block;
+    }
+
+    .cards_tabla{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .cards{
+        background-color: #dcdcdc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+    }
+
+    .titulo_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        color: #000000;
+        width: 100%;
+    }
+
+    .titulo_art{
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .texto_art{
+        margin-bottom: 10px;
+    }
+
+    .info_cards{
+        display: flex;
+    }
+
+    .titulos_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 20px;
+    }
+
+    .titulos_cards p{
+        margin-bottom: 20px;
+    }
+
+    .texto_cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto_cards p{
+        margin-bottom: 20px;
+    }
+
+    .cards_2{
+        background-color: #dcdcdc;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        padding: 5px 2%;
+        font-size: 15px;
+    }
+
+    .titulos_cantidad{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 20px;
+    }
+
+    .titulos_cantidad p{
+        margin-bottom: 10px;
+    }
+
+    .texto_cantidad p{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 1100px){
+    .cards_tabla{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bloque2{
+        flex-direction: column;
+    }
+
+    .pago{
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .metodo_pago{
+        justify-content: center;
+    }
+
+    .cont_cuenta, .cont_correo{
+        justify-content: center;
+    }
+
+    .info_personal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloque3{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .contenedor_gracias{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:900px){
+    .bloque1{
+        flex-direction: column;
+    }
+
+    .titulo{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .textos_b1{
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 700px){
+    section{
+        width: 90%;
+    }
+}
+
+@media(max-width: 460px){
+    .cards_tabla{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
